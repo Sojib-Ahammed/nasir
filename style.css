@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Times New Roman", Times, serif;
+    box-sizing: border-boxbod;
+}
+body{
+    background-color:rgba(25, 26, 22, 0.932);
+}
+ .test-form{
+    background: linear-gradient(135deg,#66877f,#2105d8);
+    width: 50%;
+    max-width: auto;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+   
+ }
+ H1{
+    color: snow;
+    margin-top: 0px;
+ }
+form ul li label{
+    color: snow;
+    font-size: 30px;
+    cursor: pointer;
+    
+    
+}
+
+
+ form ul li input{
+    font-size: 27px;
+    border-radius: 5px;
+    outline: none;
+    padding:3px;
+    color:snow;
+    width: 45%;
+    border:2px solid rgba(255,255,255, .2);
+    background: transparent;
+    
+    
+    
+}
+form ul li{
+    list-style: none;
+}
+.name-2{
+   padding-right:0px;
+}
+.name-3{
+    padding-right: 50px;
+}
+
+.submit{
+    width: 25%;
+    font-size: 30px;
+    border-radius: 10px;
+    outline: none;
+    border:2px solid rgba(255,255,255, .2);
+    background: transparent;
+    cursor: pointer;
+   
+}
+.submit:hover{
+    background-color: #2105d8;
+    color: snow;
+    transition:1s;
+}
+.reset{
+    width: 25%;
+    font-size: 30px;
+    border-radius: 10px;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    border:2px solid rgba(255,255,255, .2);
+    background: transparent;
+}
+.reset:hover{
+    background-color:#2105d8 ;
+    transition:1s;
+    color: snow;
+}
+
+@media(max-width:768px) {
+    .name-1{
+       flex-direction: column;
+      
+    }
+    .name-2{
+        flex-direction: column;
+       
+     }
+     .name-3{
+        flex-direction: column;
+       
+     }
+   
+}   
+# Sign-up
